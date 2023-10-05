@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width= , initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <center><p>Belajar Javascript</p></center>
+    <script>
+      //fungsi penjumlahan
+      function tambah(a, b) {
+        var hasil = a + b;
+        return hasil;
+      }
+      //memanggil fungsi tambah
+      altert("Hasil penjumlahan:" + tambah(7, 8));
+
+      //fungsi pengurangan
+      function pengurangan(a, b) {
+        var hasil = a - b;
+        return hasil;
+      }
+      //memanggil fungsi pengurangan
+      altert("Hasil pengurangan:" + pengurangan(8, 9));
+
+      //fungsi perkalian
+      function perkalian(a, b) {
+        var hasil = a * b;
+        return hasil;
+      }
+
+      //memanggil fungsi perkalian
+      altert("Hasil perkalian:" + perkalian(9, 9));
+
+      //fungsi sisa bagi
+      function sisaBagi(a, b) {
+        var hasil = a % b;
+        return hasil;
+      }
+
+      //memanggil fungsi sisaBagi
+      function cekGenapGanjil(angka) {
+        if (angka % 2 === 0) {
+          altert(angka + "adalah angka genap");
+        } else {
+          alert(angka + "adalah angka Ganjil");
+        }
+      }
+      //memanggil fungsi cekGenapGanjil
+      cekGenapGanjil(11);
+    </script>
+  </body>
+</html>
